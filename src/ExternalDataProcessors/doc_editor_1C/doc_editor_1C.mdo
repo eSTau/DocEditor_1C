@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abf49e93-56da-495f-bb02-555bdd7c23a4">
+  <producedTypes>
+    <objectType typeId="1ebfdbc4-cbd6-401b-b997-27cc14e91738" valueTypeId="aa16f971-e1aa-4f66-8c0b-b8926836453e"/>
+  </producedTypes>
+  <name>doc_editor_1C</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор документов в 1С</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="0a7d9b68-382d-47bb-9da8-f717d6c9b098"/>
+  <defaultForm>ExternalDataProcessor.doc_editor_1C.Form.ФормаРедактораТекстовогоДокумента</defaultForm>
+  <forms uuid="752bfdbf-0c9c-4805-b92a-ab0e8166fcdc">
+    <name>ФормаРедактораТекстовогоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактора текстового документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a2fedc80-c05a-4d63-b8a1-69c6c50384c5">
+    <name>РедакторОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор объектов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
