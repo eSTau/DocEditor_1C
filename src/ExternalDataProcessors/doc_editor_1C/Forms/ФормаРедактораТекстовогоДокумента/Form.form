@@ -113,7 +113,6 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхСиноним</name>
           <id>73</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -164,7 +163,6 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхКласс</name>
           <id>76</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -214,7 +212,6 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхТип</name>
           <id>79</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -264,7 +261,6 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхИндексКартинки</name>
           <id>82</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -314,7 +310,6 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхПолноеИмя</name>
           <id>85</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -364,7 +359,6 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхМенеджерОбъектов</name>
           <id>88</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -407,7 +401,6 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхМенеджерПодчиненныхЭлементов</name>
           <id>91</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -450,7 +443,6 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхТабличнаяЧасть</name>
           <id>94</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -493,7 +485,6 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхСтруктураЭлементовФормы</name>
           <id>97</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -543,7 +534,6 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхФайлРасширения</name>
           <id>100</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -593,7 +583,6 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхАдресХранилищаОбработки</name>
           <id>103</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -709,7 +698,6 @@
             <items xsi:type="form:Button">
               <name>ДобавитьРасширение</name>
               <id>171</id>
-              <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
@@ -1196,7 +1184,6 @@
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
-            <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
@@ -1867,7 +1854,6 @@
         </rowPictureDataPath>
         <rowsPicture xsi:type="form:FormPicture"/>
       </items>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
