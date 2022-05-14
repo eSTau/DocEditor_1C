@@ -2766,6 +2766,24 @@
       </edit>
     </columns>
   </attributes>
+  <attributes>
+    <name>Объект</name>
+    <title>
+      <key>ru</key>
+      <value>Объект</value>
+    </title>
+    <id>31</id>
+    <valueType>
+      <types>ExternalDataProcessor.doc_editor_1C</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <main>true</main>
+  </attributes>
   <formCommands>
     <name>ПоказатьДеревоМетаданных</name>
     <title>
