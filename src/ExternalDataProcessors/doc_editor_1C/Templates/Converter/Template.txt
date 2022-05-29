@@ -9,7 +9,7 @@
 
 <script type="text/javascript">
 
-function converterMD(TextMD) {
+function converterMarkDownToHtml(TextMD) {
             
             var converter = new showdown.Converter({tables: true}),
             html = converter.makeHtml(TextMD);
