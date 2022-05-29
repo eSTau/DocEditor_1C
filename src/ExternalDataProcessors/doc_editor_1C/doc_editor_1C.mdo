@@ -36,4 +36,52 @@
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
+  <templates uuid="98257bfc-3da5-4054-ab78-c953b0928309">
+    <name>Converter_html</name>
+    <synonym>
+      <key>ru</key>
+      <value>Converter html</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="0ec89819-807a-4fa0-88f1-87da75cf66a7">
+    <name>Showdown_text</name>
+    <synonym>
+      <key>ru</key>
+      <value>Showdown text</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="1376f942-62af-4bfa-97b4-71e316b85cf3">
+    <name>STYLE</name>
+    <synonym>
+      <key>ru</key>
+      <value>STYLE</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="383fad6b-05b6-4d63-a727-d0cff6c4da56">
+    <name>Showdown</name>
+    <synonym>
+      <key>ru</key>
+      <value>Showdown</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="dfbb959f-3195-445c-ba48-e59f131023be">
+    <name>ShowDownMap</name>
+    <synonym>
+      <key>ru</key>
+      <value>Show down map</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="46bb86e2-e82d-43d8-8886-79ada64c3e4b">
+    <name>Converter</name>
+    <synonym>
+      <key>ru</key>
+      <value>Converter</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:ExternalDataProcessor>

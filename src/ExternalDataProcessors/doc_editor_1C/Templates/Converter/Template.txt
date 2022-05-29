@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<script src="%%Showdown%%"></script>
+</head>
+<body>
+<div id="targetDiv"></div>
+
+<script type="text/javascript">
+
+function converterMD(TextMD) {
+            
+            var converter = new showdown.Converter({tables: true}),
+            html = converter.makeHtml(TextMD);
+
+            document.getElementById("targetDiv").innerHTML = html;
+
+        }
+        
+</script>
+
+</body></html>

@@ -113,6 +113,7 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхСиноним</name>
           <id>73</id>
+          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -163,6 +164,7 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхКласс</name>
           <id>76</id>
+          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -212,6 +214,7 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхТип</name>
           <id>79</id>
+          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -261,6 +264,7 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхИндексКартинки</name>
           <id>82</id>
+          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -310,6 +314,7 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхПолноеИмя</name>
           <id>85</id>
+          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -359,6 +364,7 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхМенеджерОбъектов</name>
           <id>88</id>
+          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -401,6 +407,7 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхМенеджерПодчиненныхЭлементов</name>
           <id>91</id>
+          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -443,6 +450,7 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхТабличнаяЧасть</name>
           <id>94</id>
+          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -485,6 +493,7 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхСтруктураЭлементовФормы</name>
           <id>97</id>
+          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -534,6 +543,7 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхФайлРасширения</name>
           <id>100</id>
+          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -583,6 +593,7 @@
         <items xsi:type="form:FormField">
           <name>СтруктураМетаданныхАдресХранилищаОбработки</name>
           <id>103</id>
+          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -617,6 +628,56 @@
           </contextMenu>
           <type>InputField</type>
           <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>СтруктураМетаданныхОписание</name>
+          <id>241</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СтруктураМетаданных.Описание</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>СтруктураМетаданныхОписаниеРасширеннаяПодсказка</name>
+            <id>243</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СтруктураМетаданныхОписаниеКонтекстноеМеню</name>
+            <id>242</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -2123,6 +2184,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>РедактируемыйДокумент</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>РедакторТекстовогоДокументаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>РедакторТекстовогоДокументаРасширеннаяПодсказка</name>
         <id>177</id>
@@ -2154,6 +2219,56 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:TextDocFieldExtInfo">
+        <width>50</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <height>10</height>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ДокументРезультат</name>
+      <id>244</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДокументРезультат</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДокументРезультатРасширеннаяПодсказка</name>
+        <id>246</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДокументРезультатКонтекстноеМеню</name>
+        <id>245</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>HTMLDocumentField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:HtmlFieldExtInfo">
         <width>50</width>
         <autoMaxWidth>true</autoMaxWidth>
         <height>10</height>
@@ -2206,6 +2321,14 @@
   <handlers>
     <event>NotificationProcessing</event>
     <name>ОбработкаОповещения</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -2472,6 +2595,24 @@
       <id>22</id>
       <valueType>
         <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Описание</name>
+      <title>
+        <key>ru</key>
+        <value>Описание</value>
+      </title>
+      <id>34</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
@@ -2769,6 +2910,39 @@
       <common>true</common>
     </edit>
     <main>true</main>
+  </attributes>
+  <attributes>
+    <name>ДокументРезультат</name>
+    <title>
+      <key>ru</key>
+      <value>Документ результат</value>
+    </title>
+    <id>35</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Конвертер</name>
+    <title>
+      <key>ru</key>
+      <value>Конвертер</value>
+    </title>
+    <id>37</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>ПоказатьДеревоМетаданных</name>

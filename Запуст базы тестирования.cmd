@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\1cv8\8.3.21.1302\bin\1cv8c" /N"" /TestManager /Execute "D:\Develop SRC\vanessa-automation\vanessa-automation.epf" /IBConnectionString "File=""H:\1С_Base\Запускалка тестов"";" /C"StartFeaturePlayer;QuietInstallVanessaExt"
