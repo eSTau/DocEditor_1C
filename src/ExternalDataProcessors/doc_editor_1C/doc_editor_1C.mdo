@@ -53,10 +53,10 @@
     <templateType>TextDocument</templateType>
   </templates>
   <templates uuid="1376f942-62af-4bfa-97b4-71e316b85cf3">
-    <name>STYLE</name>
+    <name>Showdown_Style</name>
     <synonym>
       <key>ru</key>
-      <value>STYLE</value>
+      <value>Showdown style</value>
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
