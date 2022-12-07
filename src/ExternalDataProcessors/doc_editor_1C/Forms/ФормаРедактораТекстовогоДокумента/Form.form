@@ -3621,6 +3621,24 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ФрагментДокумента</name>
+    <title>
+      <key>ru</key>
+      <value>Фрагмент документа</value>
+    </title>
+    <id>39</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПоказатьДеревоМетаданных</name>
     <title>
