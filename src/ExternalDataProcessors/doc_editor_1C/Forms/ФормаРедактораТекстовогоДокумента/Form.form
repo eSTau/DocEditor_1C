@@ -2923,6 +2923,7 @@
   <items xsi:type="form:FormField">
     <name>ДокументРезультат</name>
     <id>244</id>
+    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
