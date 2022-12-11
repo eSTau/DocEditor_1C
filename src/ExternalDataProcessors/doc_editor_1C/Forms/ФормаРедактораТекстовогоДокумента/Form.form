@@ -910,6 +910,10 @@
           <event>OnActivateRow</event>
           <name>СтруктураМетаданныхПриАктивизацииСтроки</name>
         </handlers>
+        <handlers>
+          <event>BeforeExpand</event>
+          <name>СтруктураМетаданныхПередРазворачиванием</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
