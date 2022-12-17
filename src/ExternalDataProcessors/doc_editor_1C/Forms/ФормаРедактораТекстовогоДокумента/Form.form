@@ -747,66 +747,6 @@
             <name>СтруктураМетаданныхГруппаМетаданные</name>
             <id>165</id>
             <items xsi:type="form:Button">
-              <name>ВывестиСтруктуруМетаданных</name>
-              <id>167</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>ВывестиСтруктуруМетаданныхРасширеннаяПодсказка</name>
-                <id>168</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <commandName>Form.Command.ВывестиСтруктуру</commandName>
-              <representation>Auto</representation>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
-            <items xsi:type="form:Button">
-              <name>ВывестиСтруктуруСПодчиненнымиЭлементами</name>
-              <id>169</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>ВывестиСтруктуруСПодчиненнымиЭлементамиРасширеннаяПодсказка</name>
-                <id>170</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <commandName>Form.Command.ВывестиСтруктуруСПодчиненнымиЭлементами</commandName>
-              <representation>Auto</representation>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
-            <items xsi:type="form:Button">
               <name>ДобавитьРасширение</name>
               <id>171</id>
               <enabled>true</enabled>
@@ -3664,48 +3604,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаПоказатьДеревоМетаданных</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВывестиСтруктуру</name>
-    <title>
-      <key>ru</key>
-      <value>Вывести структуру метаданных</value>
-    </title>
-    <id>3</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Вывести структуру метаданных</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаВывестиСтруктуруМетаданных</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВывестиСтруктуруСПодчиненнымиЭлементами</name>
-    <title>
-      <key>ru</key>
-      <value>Вывести структуру с подчиненными элементами</value>
-    </title>
-    <id>4</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Вывести структуру с подчиненными элементами</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаВывестиСтруктуруСПодчиненнымиЭлементами</name>
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
