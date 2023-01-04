@@ -3,6 +3,7 @@ build/
 allure-report/
 bin/
 img/
+ConfigDump/
 
 ConfigDumpInfo.xml
 build
