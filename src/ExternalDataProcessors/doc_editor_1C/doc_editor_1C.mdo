@@ -28,6 +28,16 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="a5e9740c-9fdc-4edf-9909-3ebf6b2ea198">
+    <name>ФормаПрограммногоМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма программного модуля</value>
+    </synonym>
+    <comment>Форма предназначена для вывода программного модуля объекта</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="9b00dc16-2232-4e98-94b4-888374f04c5f">
     <name>ОписаниеОбъекта</name>
     <synonym>

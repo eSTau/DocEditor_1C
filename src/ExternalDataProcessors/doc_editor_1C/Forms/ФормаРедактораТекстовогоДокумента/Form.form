@@ -1294,6 +1294,36 @@
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
+          <items xsi:type="form:Button">
+            <name>ПоказатьМодульМенеджера</name>
+            <id>328</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ПоказатьМодульМенеджераРасширеннаяПодсказка</name>
+              <id>329</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ПоказатьМодульМенеджера</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4077,6 +4107,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПоказатьМодульОбъекта</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПоказатьМодульМенеджера</name>
+    <title>
+      <key>ru</key>
+      <value>Показать модуль менеджера</value>
+    </title>
+    <id>27</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПоказатьМодульМенеджера</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
