@@ -154,25 +154,21 @@
           <segments>СхемаМодуля</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Add</excludedCommands>
+        <excludedCommands>Change</excludedCommands>
+        <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>CopyToClipboard</excludedCommands>
+        <excludedCommands>Delete</excludedCommands>
         <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>SelectAll</excludedCommands>
-        <excludedCommands>FindByCurrentValue</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>CancelSearch</excludedCommands>
         <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>OutputList</excludedCommands>
-        <excludedCommands>SearchHistory</excludedCommands>
+        <excludedCommands>List</excludedCommands>
         <excludedCommands>MoveDown</excludedCommands>
+        <excludedCommands>MoveUp</excludedCommands>
+        <excludedCommands>OutputList</excludedCommands>
+        <excludedCommands>SelectAll</excludedCommands>
         <excludedCommands>ShowMultipleSelection</excludedCommands>
         <excludedCommands>ShowRowRearrangement</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>Find</excludedCommands>
-        <excludedCommands>CopyToClipboard</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Add</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
         <excludedCommands>Tree</excludedCommands>
-        <excludedCommands>List</excludedCommands>
         <items xsi:type="form:FormField">
           <name>СхемаМодуляПредставлениеБлока</name>
           <id>50</id>
@@ -272,6 +268,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>СхемаМодуляСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -310,6 +307,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>СхемаМодуляСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -348,6 +346,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>СхемаМодуляУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
