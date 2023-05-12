@@ -4044,6 +4044,10 @@
       <value>Добавить описание объекта</value>
     </title>
     <id>12</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Для вывода детальных данных необходимо расскрыть структуру объекта.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
